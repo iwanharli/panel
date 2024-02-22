@@ -1,0 +1,41 @@
+/* AUTHENTICATION  */
+
+.input-custom {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input.input-custom:invalid {
+    border: 2px solid rgba(255, 0, 0, 0.71);
+    background: rgba(255, 0, 0, 0.249);
+}
+
+.password-label-custom {
+    margin-right: 10px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.756);
+    border: 1px solid rgb(198, 198, 198);
+    border-radius: 50px;
+}
+
+
+/* DASHBOARD  */
+.app-wrapper-custom {
+    background: rgba(146, 146, 146, 0.099);
+}
+
+.badge-container {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 13px;
+}
+
+.badge {
+    margin-left: auto;
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .col-service-custom {
+        flex: 0 0 50%; /* 6 out of 12 units */
+        max-width: 50%; /* 6 out of 12 units */
+    }
+}
